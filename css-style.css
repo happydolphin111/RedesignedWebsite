@@ -106,7 +106,12 @@ section {
 }
 
 .section2 {
-  background-color: blueviolet;
+  background-color: #f3f3f3;
+}
+
+.carrousel {
+  width: 100%;
+  height: auto;
 }
 
 .section3 {
@@ -167,12 +172,12 @@ section {
 
 .FooterTitle {
   color: #470057;
-  font-size: 23px;
+  font-size: 1.7vw;
 }
 
 .FooterDescription {
   color: #631277;
-  font-size: 130%;
+  font-size: 1.6vw;
 }
 
 .button {
