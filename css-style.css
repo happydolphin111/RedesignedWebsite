@@ -1,0 +1,266 @@
+body {
+  background-color: #e5e5e5;
+}
+
+section {
+  padding: 3.75rem 0;
+}
+
+.ribbon1 {
+  background-color: #631277;
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "mako", sans-serif;
+}
+
+.ribbon1A {
+  font-size: 20px;
+}
+
+.ribbon1B {
+  padding-right: 20px;
+}
+
+.ribbon2 {
+  background-color: #f3f3f3;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 6;
+  padding-bottom: 6;
+}
+
+.logo-image {
+  max-width: 50%;
+  height: auto;
+}
+
+.navbar {
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: solid 2px #624c67;
+  border-bottom: solid 2px #624c67;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #624c67;
+  font-size: 23px;
+}
+
+.nav-link:hover {
+  color: #470057;
+  font-size: 25px;
+  text-underline-offset: auto;
+}
+
+.section1 {
+  background-color: #624c67;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.section1-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.Service {
+}
+
+.ServiceDescription {
+}
+
+.CardButton {
+  background-color: #ededed;
+  color: #413345;
+  text-align: left;
+  padding: 4%;
+  font-size: 90%;
+  width: 300px;
+  height: 50px;
+  text-decoration: none;
+  border: none;
+}
+
+.CardButton:hover {
+  background-color: #d9d9d9;
+  font-size: 95%;
+}
+
+.section2 {
+  background-color: #f3f3f3;
+}
+
+.carrousel {
+  width: 100%;
+  height: auto;
+}
+
+.section3 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #793b88;
+  margin: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+  color: white;
+}
+
+.fundation-img {
+  max-width: 300px;
+  height: auto;
+  padding: 0.2vw;
+}
+
+.TituloFundacion {
+  font-size: 2vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 800;
+}
+
+.CuerpoFundacion {
+  font-size: 1.5vw;
+  padding: 10px;
+  max-width: 600px;
+}
+
+.botonfunda {
+  background-color: #ededed;
+  color: #413345;
+  text-align: left;
+  padding: 10px;
+  margin-top: 2vw;
+  font-size: 1vw;
+  width: 25vw;
+  height: 5vw;
+  text-decoration: none;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  background-color: #d9d9d9;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.FooterTitle {
+  color: #470057;
+  font-size: 1.7vw;
+}
+
+.FooterDescription {
+  color: #631277;
+  font-size: 1.6vw;
+}
+
+.button {
+  display: inline-block;
+  margin: 4px 2px;
+  background-color: #624c67;
+  font-size: 14px;
+  padding-left: 32px;
+  padding-right: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #d9d9d9;
+  text-decoration: none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 4px 2px;
+  height: 50px;
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.mglass {
+  display: inline-block;
+  pointer-events: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+  position: absolute;
+  font-size: 22px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.search:focus + .searchbutton {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color: #624c67;
+}
+
+.search {
+  position: absolute;
+  left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+  background-color: #624c67;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 100%;
+  z-index: 10;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+
+.search:focus {
+  width: 70vw; /* Bar width+1px */
+  padding: 0 16px 0 0;
+}
+
+.expandright {
+  left: auto;
+  right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+  padding: 0 0 0 16px;
+}
